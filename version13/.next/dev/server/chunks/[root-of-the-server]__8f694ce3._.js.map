@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 46, "column": 0}, "map": {"version":3,"sources":["file:///home/fred/Documents/linux_info_backup/github_folders/next_intl_setup/nextIntl-setup/version13/configs/nextIntl/localeRouting.ts"],"sourcesContent":["import { defineRouting } from 'next-intl/routing';\n\n\nconst localeRoutingConfiguration = {\n    locales: ['en', 'de'],\n    defaultLocale: 'en',\n}\n\nexport const localeRouting = defineRouting(localeRoutingConfiguration)"],"names":[],"mappings":";;;;AAAA;;AAGA,MAAM,6BAA6B;IAC/B,SAAS;QAAC;QAAM;KAAK;IACrB,eAAe;AACnB;AAEO,MAAM,gBAAgB,IAAA,wcAAa,EAAC"}},
+    {"offset": {"line": 64, "column": 0}, "map": {"version":3,"sources":["file:///home/fred/Documents/linux_info_backup/github_folders/next_intl_setup/nextIntl-setup/version13/src/proxy.ts"],"sourcesContent":["import createMiddleware from 'next-intl/middleware';\nimport { localeRouting } from '../configs/nextIntl/localeRouting';\n\nexport default createMiddleware(localeRouting);\n\nexport const config = {\n    // Match all pathnames except for\n    // - … if they start with `/api`, `/trpc`, `/_next` or `/_vercel`\n    // - … the ones containing a dot (e.g. `favicon.ico`)\n    matcher: '/((?!api|trpc|_next|_vercel|.*\\\\..*).*)'\n    // matcher: '/((?!api|trpc|_next|_vercel|favicon\\\\.ico|.*\\\\..*).*)',\n\n};\n"],"names":[],"mappings":";;;;;;AAAA;AACA;;;uCAEe,IAAA,sZAAgB,EAAC,qJAAa;AAEtC,MAAM,SAAS;IAClB,iCAAiC;IACjC,iEAAiE;IACjE,qDAAqD;IACrD,SAAS;AAGb"}}]
+}

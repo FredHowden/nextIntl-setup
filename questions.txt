@@ -1,0 +1,6 @@
+does next-intl expect all english texts to be inside a single file? 
+
+
+why do we need a defaultLocale if not for a fallbackLocale, but then why is it not called fallbackLocale?
+nextjs. why does next-intl not just have a translation() function that decides whether to either use useTranslations or getTranslation at build time, because at the top of the file next-intl knows whether it is a client or server component and it can also check whether this is a react file?
+    

@@ -1,0 +1,10 @@
+node_modules
+next/
+messages/en.d.json.ts
+
+.DS_Store
+tsconfig.tsbuildinfo
+/test-results/
+/playwright-report/
+/playwright/.cache/
+out

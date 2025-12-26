@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///home/fred/Documents/linux_info_backup/github_folders/next_intl_setup/nextIntl-setup/version13/src/app/%5Blocale%5D/page.tsx"],"sourcesContent":["'use client'\n\n\nimport { useTranslations } from 'next-intl';\n\nexport default function IndexPage() {\n\n    const t = useTranslations('IndexPage');\n\n    return (\n        <p className=\"max-w-[590px]\">\n            {t.rich('description', {\n                code: (chunks) => (\n                    <code className=\"font-mono text-white\">{chunks}</code>\n                )\n            })}\n        </p>\n    );\n}\n\n\n\n"],"names":[],"mappings":";;;;;AAGA;AAHA;;;AAKe,SAAS;IAEpB,MAAM,IAAI,IAAA,8ZAAe,EAAC;IAE1B,qBACI,ubAAC;QAAE,WAAU;kBACR,EAAE,IAAI,CAAC,eAAe;YACnB,MAAM,CAAC,uBACH,ubAAC;oBAAK,WAAU;8BAAwB;;;;;;QAEhD;;;;;;AAGZ"}}]
+}
