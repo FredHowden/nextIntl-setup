@@ -1,17 +1,1 @@
-[00:00:00.934] Server  LOG      ✓ Ready in 696ms
-[00:00:08.162] Server  LOG     {}
-[00:00:08.162] Server  LOG     "/"
-[00:00:08.163] Server  LOG     {"locale":"de"}
-[00:00:08.349] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:08.442] Browser LOG     {}
-[00:00:08.442] Browser LOG     "/"
-[00:00:08.442] Browser LOG     {"locale":"de"}
-[00:00:08.442] Browser LOG     {}
-[00:00:08.442] Browser LOG     "/"
-[00:00:08.442] Browser LOG     {"locale":"de"}
-[00:00:11.558] Browser LOG     {}
-[00:00:11.558] Browser LOG     "/"
-[00:00:11.558] Browser LOG     {"locale":"en"}
-[00:00:11.558] Browser LOG     {}
-[00:00:11.558] Browser LOG     "/"
-[00:00:11.558] Browser LOG     {"locale":"en"}
+[00:00:00.923] Server  LOG      ✓ Ready in 700ms
