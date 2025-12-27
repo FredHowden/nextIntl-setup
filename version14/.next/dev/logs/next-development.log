@@ -1,0 +1,4 @@
+[00:00:00.888] Server  LOG      ✓ Ready in 678ms
+[00:00:05.389] Server  LOG     {}
+[00:00:05.389] Server  LOG     "/"
+[00:00:05.390] Server  LOG     {"locale":"en"}
