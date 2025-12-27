@@ -1,12 +1,6 @@
 
 # this is my next-intl setup.
 
-it works with app routing, 
-it's routes are dynamic (/en, /fr, etc),
-it has static pages,
-Text is loaded on the server during the first render, even in client components.
-it does not involve prop drilling, 
-
 
 ## Features
 
@@ -16,14 +10,15 @@ it does not involve prop drilling,
 - **Server-side text loading** on first render, even for client components.
 - **No prop drilling** required.
 
+## Getting Started
 
-go inside version and run 
+Navigate into the `version` directory and run:
 
 ```bash
 npm install
 ```
 
-then run
+then
 
 ```bash
 npm run dev
