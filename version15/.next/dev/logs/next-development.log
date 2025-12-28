@@ -1,0 +1,37 @@
+[00:00:00.891] Server  LOG      ✓ Ready in 669ms
+[00:00:09.771] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/de. Falling back to browser navigation. {}
+[00:00:09.771] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/de/pathnames. Falling back to browser navigation. {}
+[00:00:10.398] Server  LOG     {}
+[00:00:10.399] Server  LOG     "/pathnames"
+[00:00:10.399] Server  LOG     {"locale":"de"}
+[00:00:10.578] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:10.578] Browser LOG     {}
+[00:00:10.578] Browser LOG     "/pathnames"
+[00:00:10.578] Browser LOG     {"locale":"de"}
+[00:00:10.578] Browser LOG     {}
+[00:00:10.578] Browser LOG     "/pathnames"
+[00:00:10.578] Browser LOG     {"locale":"de"}
+[00:00:12.490] Browser LOG     {}
+[00:00:12.490] Browser LOG     "/"
+[00:00:12.490] Browser LOG     {"locale":"de"}
+[00:00:12.490] Browser LOG     {}
+[00:00:12.490] Browser LOG     "/"
+[00:00:12.490] Browser LOG     {"locale":"de"}
+[00:00:13.441] Browser LOG     {}
+[00:00:13.441] Browser LOG     "/pathnames"
+[00:00:13.441] Browser LOG     {"locale":"de"}
+[00:00:13.442] Browser LOG     {}
+[00:00:13.442] Browser LOG     "/pathnames"
+[00:00:13.442] Browser LOG     {"locale":"de"}
+[00:00:17.725] Browser LOG     {}
+[00:00:17.725] Browser LOG     "/pathnames"
+[00:00:17.725] Browser LOG     {"locale":"en"}
+[00:00:17.725] Browser LOG     {}
+[00:00:17.725] Browser LOG     "/pathnames"
+[00:00:17.725] Browser LOG     {"locale":"en"}
+[00:00:18.883] Browser LOG     {}
+[00:00:18.883] Browser LOG     "/"
+[00:00:18.883] Browser LOG     {"locale":"en"}
+[00:00:18.883] Browser LOG     {}
+[00:00:18.883] Browser LOG     "/"
+[00:00:18.883] Browser LOG     {"locale":"en"}
