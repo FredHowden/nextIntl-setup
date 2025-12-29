@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 46, "column": 0}, "map": {"version":3,"sources":["file:///home/fred/Documents/linux_info_backup/github_folders/next_intl_setup/tests/version15/src/proxy.ts"],"sourcesContent":["import createMiddleware from 'next-intl/middleware';\nimport { localeRouting } from '../configs/nextIntl/localeRouting';\n\nexport default createMiddleware(localeRouting);\n\nexport const config = {\n    // Match all pathnames except for\n    // - … if they start with `/api`, `/trpc`, `/_next` or `/_vercel`\n    // - … the ones containing a dot (e.g. `favicon.ico`)\n    matcher: '/((?!api|trpc|_next|_vercel|.*\\\\..*).*)'\n    // matcher: '/((?!api|trpc|_next|_vercel|favicon\\\\.ico|.*\\\\..*).*)',\n\n};\n"],"names":[],"mappings":";;;;;;AAAA;;;;;;;;uCAGe,IAAA,sZAAgB,EAAC;AAEzB,MAAM,SAAS;IAClB,iCAAiC;IACjC,iEAAiE;IACjE,qDAAqD;IACrD,SAAS;AAGb"}}]
-}

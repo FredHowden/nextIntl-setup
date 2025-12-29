@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 14, "column": 0}, "map": {"version":3,"sources":["file:///home/fred/Documents/linux_info_backup/github_folders/keuzedeel_amsterdam_gemeente/next_intl_code/test2/version4/example-app-router/src/app/page.tsx"],"sourcesContent":["import {redirect} from 'next/navigation';\n\n// This page only renders when the app is built statically (output: 'export')\nexport default function RootPage() {\n  redirect('/en');\n}\n"],"names":[],"mappings":";;;;AAAA;AAAA;;AAGe,SAAS;IACtB,IAAA,0YAAQ,EAAC;AACX"}}]
-}

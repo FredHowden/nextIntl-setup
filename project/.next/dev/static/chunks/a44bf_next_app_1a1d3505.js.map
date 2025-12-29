@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":["file:///home/fred/Documents/linux_info_backup/github_folders/keuzedeel_amsterdam_gemeente/next_intl_code/test2/version12/example-app-router/node_modules/.pnpm/next%4016.0.10_%40babel%2Bcore%407.28.5_%40playwright%2Btest%401.57.0_react-dom%4019.2.3_react%4019.2.3__react%4019.2.3/node_modules/next/app.js"],"sourcesContent":["module.exports = require('./dist/pages/_app')\n"],"names":[],"mappings":"AAAA,OAAO,OAAO","ignoreList":[0]}}]
-}

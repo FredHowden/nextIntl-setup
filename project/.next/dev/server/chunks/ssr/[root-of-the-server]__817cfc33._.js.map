@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 14, "column": 0}, "map": {"version":3,"sources":["file:///home/fred/Documents/linux_info_backup/github_folders/next_intl_setup/tests/version15/src/app/%5Blocale%5D/pathnames/page.tsx"],"sourcesContent":["import { useTranslations } from 'next-intl';\n\nexport default function PathnamesPage() {\n\n\n    const t = useTranslations('PathnamesPage');\n\n    return (\n        <div className=\"max-w-[490px]\">\n            {t.rich('description', {\n                p: (chunks) => <p className=\"mt-4\">{chunks}</p>,\n                code: (chunks) => (\n                    <code className=\"font-mono text-white\">{chunks}</code>\n                )\n            })}\n        </div>\n    );\n}\n"],"names":[],"mappings":";;;;;AAAA;;;AAEe,SAAS;IAGpB,MAAM,IAAI,IAAA,sdAAe,EAAC;IAE1B,qBACI,ubAAC;QAAI,WAAU;kBACV,EAAE,IAAI,CAAC,eAAe;YACnB,GAAG,CAAC,uBAAW,ubAAC;oBAAE,WAAU;8BAAQ;;;;;;YACpC,MAAM,CAAC,uBACH,ubAAC;oBAAK,WAAU;8BAAwB;;;;;;QAEhD;;;;;;AAGZ"}}]
-}

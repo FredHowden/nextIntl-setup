@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///home/fred/Documents/linux_info_backup/github_folders/keuzedeel_amsterdam_gemeente/next_intl_code/test2/version4/example-app-router/src/app/layout.tsx"],"sourcesContent":["import {ReactNode} from 'react';\n\ntype Props = {\n  children: ReactNode;\n};\n\n// Since we have a `not-found.tsx` page on the root, a layout file\n// is required, even if it's just passing children through.\nexport default function RootLayout({children}: Props) {\n  return children;\n}\n"],"names":[],"mappings":";;;;AAQe,SAAS,WAAW,EAAC,QAAQ,EAAQ;IAClD,OAAO;AACT"}}]
-}
