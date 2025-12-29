@@ -1,6 +1,6 @@
 import { NextIntlClientProvider } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
-import { localeRouting, type AvailableLocales } from '@/../libraries/nextIntl/localeRouting';
+import { localeRouting, type AvailableLocales } from '@/libraries/nextIntl/localeRouting';
 import Navigation from '@/components/Navigation';
 
 import type { ReactNode } from 'react';

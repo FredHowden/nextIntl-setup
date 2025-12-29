@@ -1,10 +1,12 @@
 import createNextIntlPlugin from "next-intl/plugin";
+type CreateNextIntlPlugin = Parameters<typeof createNextIntlPlugin>[0];
+
+
 
 // note that these paths are from the root not where this file is located
-const languageResolverPath = "./libraries/nextIntl/getLocaleText.ts"
-const pathToEnglishText = "./locales/en.json"
+const languageResolverPath = "./src/libraries/nextIntl/getLocaleText.ts"
+const pathToEnglishText = "./src/locales/en.json"
 
-type CreateNextIntlPlugin = Parameters<typeof createNextIntlPlugin>[0];
 
 const nextIntlConfiguration: CreateNextIntlPlugin = {
     requestConfig: languageResolverPath,

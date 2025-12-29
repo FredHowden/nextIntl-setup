@@ -1,5 +1,5 @@
 import createMiddleware from 'next-intl/middleware';
-import { localeRouting } from '../libraries/nextIntl/localeRouting';
+import { localeRouting } from '@/libraries/nextIntl/localeRouting';
 
 export default createMiddleware(localeRouting);
 

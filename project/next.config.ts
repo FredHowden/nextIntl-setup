@@ -1,5 +1,5 @@
 import { NextConfig } from "next";
-import { NextIntlPlugin } from "./libraries/nextIntl/plugin";
+import { NextIntlPlugin } from "@/libraries/nextIntl/plugin";
 
 
 
