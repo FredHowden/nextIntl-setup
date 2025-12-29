@@ -13,7 +13,7 @@ async function getLocaleText(props: GetRequestConfigParams) {
     const requestedLocaleIsAvailable = hasLocale(availableLocales, requestedLocale);
 
     if (requestedLocaleIsAvailable) {
-        const requestedLocaleText = await import(`../../locales/${requestedLocale}.json`);
+        const requestedLocaleText = await import(`./locales/${requestedLocale}.json`);
 
         return {
             locale: requestedLocale,
@@ -22,7 +22,7 @@ async function getLocaleText(props: GetRequestConfigParams) {
 
     } else {
         const fallbackLocale = localeRouting.defaultLocale
-        const fallbackLocaleText = await import(`../../locales/${fallbackLocale}.json`);
+        const fallbackLocaleText = await import(`./locales/${fallbackLocale}.json`);
         return {
             locale: fallbackLocale,
             messages: fallbackLocaleText.default
