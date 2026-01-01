@@ -5,7 +5,7 @@ import { localeRouting } from '@/libraries/nextIntl/localeRouting';
 
 import { Locale } from 'next-intl';
 import { ChangeEvent } from 'react';
-import { usePathname, useRouter } from '@/libraries/nextIntl/localeAwareNavigation';
+import { usePathname, useRouter } from '@/libraries/nextIntl/localeAwareNavigationHelpers';
 import { useParams } from 'next/navigation';
 
 
