@@ -17,6 +17,7 @@
 
 
 
+
 ## Getting Started
 
 
@@ -27,7 +28,6 @@ cd project
 ```bash
 npm install
 ```
-
 
 ```bash
 npm run dev
