@@ -7,8 +7,8 @@
 - Works for **App Router**.
 - Is **dynamically routed** (`/en`, `/fr`, etc.).
 - Makes **pages static**.
-- **Server-side text loading** on first render, even for client components for better SEO.
-- **No prop drilling** required.
+- **Server-side text loading** on first render, (even for client components) for better SEO.
+- **No prop drilling**.
 
 ## Getting Started
 

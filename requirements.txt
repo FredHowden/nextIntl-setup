@@ -1,7 +1,0 @@
-I need a nextjs localization that fulfills these criteria:  
-    works with app routing, 
-    does not use client side imports of text even on a client component, 
-    does not involve prop drilling, 
-    routes are dynamic
-
-next-intl does this

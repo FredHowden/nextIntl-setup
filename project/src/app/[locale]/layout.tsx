@@ -1,16 +1,19 @@
 import { NextIntlClientProvider } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
-import { localeRouting, type AvailableLocales } from '@/libraries/nextIntl/localeRouting';
+import { localeRouting } from '@/libraries/nextIntl/localeRouting';
 import Navigation from '@/components/Navigation';
 
 import type { ReactNode } from 'react';
 
 import '@/styles/globals.css';
 
+type possibleLocales = (typeof localeRouting.locales)[number];
+
 type LocaleLayoutProps = {
     children: ReactNode;
-    params: Promise<{ locale: AvailableLocales }>;
+    params: Promise<{ locale: possibleLocales }>;
 };
+
 
 export function generateStaticParams() {
     return localeRouting.locales.map((locale) => ({ locale }));
