@@ -12,3 +12,8 @@ answered:
 
 Why do we need a defaultLocale if not for a fallbackLocale, but then why is it not called fallbackLocale?
 answer: because sometimes people want the default language to be without the language infront of it.
+
+
+Does next-intl when creating static pages place the text inside the client component code?
+answer: yes, you can check this by disabeling the javascript then reloading the page. If 
+there is text then the text is preloaded.
