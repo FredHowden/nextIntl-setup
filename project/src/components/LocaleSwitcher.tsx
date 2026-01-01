@@ -3,10 +3,11 @@
 import { useTranslations } from 'next-intl';
 import { localeRouting } from '@/libraries/nextIntl/localeRouting';
 
-import { useParams } from 'next/navigation';
 import { Locale } from 'next-intl';
 import { ChangeEvent } from 'react';
 import { usePathname, useRouter } from '@/libraries/nextIntl/localeAwareNavigation';
+import { useParams } from 'next/navigation';
+
 
 
 export default function LocaleSwitcher() {
