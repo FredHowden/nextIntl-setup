@@ -6,7 +6,7 @@ import { localeRouting } from '@/libraries/nextIntl/localeRouting';
 import { useParams } from 'next/navigation';
 import { Locale } from 'next-intl';
 import { ChangeEvent } from 'react';
-import { usePathname, useRouter } from '@/libraries/nextIntl/navigate';
+import { usePathname, useRouter } from '@/libraries/nextIntl/localeAwareNavigation';
 
 
 export default function LocaleSwitcher() {
