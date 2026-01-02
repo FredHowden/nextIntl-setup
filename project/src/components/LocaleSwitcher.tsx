@@ -14,25 +14,25 @@ export default function LocaleSwitcher() {
     const t = useTranslations('LocaleSwitcher');
 
     const router = useRouter();
-    const pathname = usePathname();
-    const params = useParams();
-    console.log(JSON.stringify(router));
-    console.log(JSON.stringify(pathname));
-    console.log(JSON.stringify(params));
+    const pathToCurrentPage = usePathname();
+    const ParamsOnCurrentPage = useParams();
+    console.log(JSON.stringify(pathToCurrentPage));
+    console.log(JSON.stringify(ParamsOnCurrentPage));
 
 
     const goToRequestedLocale = (event: ChangeEvent<HTMLSelectElement>) => {
-        const nextLocale = event.target.value as Locale;
-        const targetRoute = { pathname, params };
-        const navigationOptions = { locale: nextLocale };
+        const selectedLocale = event.target.value as Locale;
 
-        router.replace(targetRoute, navigationOptions);
+        const PageOptionsToChange = { locale: selectedLocale }
+        const routeWithCurrentParams = { pathname: pathToCurrentPage, params: ParamsOnCurrentPage };
+
+        router.replace(routeWithCurrentParams, PageOptionsToChange);
     };
 
     return (
         <label className="relative text-gray-400">
             <select
-                value={params.locale}
+                value={ParamsOnCurrentPage.locale}
                 onChange={goToRequestedLocale}
                 className="border rounded p-1"
             >
