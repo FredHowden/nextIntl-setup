@@ -1,13 +1,12 @@
 import { NextIntlClientProvider } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
-import { localeRouting } from '@/libraries/nextIntl/localeRouting';
+import { localeRouting, type possibleLocales } from '@/libraries/nextIntl/localeRouting';
 import Navigation from '@/components/Navigation';
 
 import type { ReactNode } from 'react';
 
 import '@/styles/globals.css';
 
-type possibleLocales = (typeof localeRouting.locales)[number];
 
 type LocaleLayoutProps = {
     children: ReactNode;

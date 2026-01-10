@@ -9,4 +9,6 @@ const localeRoutingConfiguration: DefineRouting = {
     pathnames: {}
 };
 
+export type possibleLocales = (typeof localeRouting.locales)[number];
+
 export const localeRouting = defineRouting(localeRoutingConfiguration);

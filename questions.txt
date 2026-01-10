@@ -3,15 +3,16 @@ unanswered:
 
 Does next-intl expect all english texts to be inside a single file? 
 
-Nextjs. why does next-intl not just have a translation() function that decides whether to either use useTranslations or getTranslation at build time, because at the top of the file next-intl knows whether it is a client or server component and it can also check whether this is a react file?
+Nextjs. Why does next-intl not just have a translation() function that decides whether to either use useTranslations or getTranslation at build time, because at the top of the file next-intl knows whether it is a client or server component and it can also check whether this is a react file?
 
+What is the global.ts file and why does autocorrect not work without it?
 
 
 
 answered:
 
 Why do we need a defaultLocale if not for a fallbackLocale, but then why is it not called fallbackLocale?
-answer: because sometimes people want the default language to be without the language infront of it.
+answer: because sometimes people want the default language to be without the language(/en/pathname) infront of it.
 
 
 Does next-intl when creating static pages place the text inside the client component code?
